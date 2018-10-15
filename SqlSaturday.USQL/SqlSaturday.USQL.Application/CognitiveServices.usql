@@ -10,7 +10,7 @@ REFERENCE ASSEMBLY ImageOcr;
     EXTRACT 
         FileName string, 
         ImgData byte[]
-    FROM @"/csImages/{FileName}.jpg"
+    FROM @"/csImages/Tags/{FileName}.jpg"
     USING new Cognition.Vision.ImageExtractor();
 
 //  Extract the number of objects on each image and tag them 

@@ -15,5 +15,6 @@
     WHERE year == "2000";
 
 OUTPUT @result 
-    TO @"/Oscars/resultFiltered.csv"
+    TO @"/Oscars/resultFilteredVS" + DateTime.Now.ToString("MMddyyyyhhmm") + ".csv"
     USING Outputters.Csv();
+

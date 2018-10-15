@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScopeVertices helperAssembly="__ScopeCodeGen__.dll" signatureVersion="1">
+  <ScopeVertex id="SV1_Extract" cppReady="true" nativeOnly="true">
+    <operator id="Extract_0" uid="1" assemblyName="Microsoft.Analytics.Interfaces.dll" className="Microsoft.Analytics.Interfaces.IExtractor">
+      <input id="Extract_0" uid="1" schema="year:string,category:string,winner:string,entity:string" inputIndex="0" numberOfInputs="ALL" />
+      <output id="Extract_0_Data0" uid="2" schema="year:string,category:string,winner:string,entity:string" />
+    </operator>
+    <operator id="Process_1" uid="3" assemblyName="__ScopeCodeGen__.dll" className="SqlFilterTransformer_1">
+      <input id="Extract_0_Data0" uid="2" schema="year:string,category:string,winner:string,entity:string" />
+      <output id="Process_1_Data0" uid="4" schema="year:string,category:string,winner:string,entity:string" />
+    </operator>
+    <operator id="Output_2" uid="5" assemblyName="Microsoft.Analytics.Interfaces.dll" className="Microsoft.Analytics.Interfaces.IOutputter">
+      <input id="Process_1_Data0" uid="4" schema="year:string,category:string,winner:string,entity:string" />
+      <output id="SV1_Extract_out0" uid="5" schema="year:string,category:string,winner:string,entity:string" outputIndex="0" numberOfOutputs="1" finalOutput="true" />
+    </operator>
+  </ScopeVertex>
+</ScopeVertices>
