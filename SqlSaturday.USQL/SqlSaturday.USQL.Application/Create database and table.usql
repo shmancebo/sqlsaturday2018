@@ -1,0 +1,15 @@
+//Create Database SampleDBTutorials
+CREATE DATABASE IF NOT EXISTS OscarsDB;
+
+//Create Table OlympicAthletes
+CREATE TABLE IF NOT EXISTS OscarsDB.dbo.Adwars
+(
+        //Define schema of table
+        year          string, 
+        category      string, 
+        winner        string, 
+        entity        string,
+    INDEX idx1 //Name of index
+    CLUSTERED (year ASC) //Column to cluster by
+    DISTRIBUTED BY HASH (year) //Column to partition by
+);

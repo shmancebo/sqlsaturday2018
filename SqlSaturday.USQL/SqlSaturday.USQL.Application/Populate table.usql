@@ -1,0 +1,13 @@
+//Read some data
+@data = 
+    EXTRACT year          string, 
+            category      string, 
+            winner        string, 
+            entity        string
+    FROM @"/Oscars/dataOscars.csv"
+    USING Extractors.Csv(silent:true);
+
+//Insert it into a previously created table
+INSERT INTO OscarsDB.dbo.Adwars
+SELECT *
+FROM @data;

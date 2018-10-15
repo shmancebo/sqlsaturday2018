@@ -1,0 +1,19 @@
+//Define schema of file, must map all columns
+@data = 
+    EXTRACT year          string, 
+            category      string, 
+            winner        string, 
+            entity        string
+    FROM @"/Oscars/dataOscars.csv"
+    USING Extractors.Csv(silent:true);
+
+
+
+@result = 
+    SELECT  year,category,winner,entity
+    FROM @data
+    WHERE year == "2000";
+
+OUTPUT @result 
+    TO @"/Oscars/resultFiltered.csv"
+    USING Outputters.Csv();

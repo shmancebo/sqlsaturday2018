@@ -1,0 +1,44 @@
+//Define schema of file, must map all columns
+@data = 
+    EXTRACT year          string, 
+            category      string, 
+            winner        string, 
+            entity        string
+    FROM @"Oscars/dataOscars.csv"
+    USING Extractors.Csv(silent:true);
+
+
+@dataSentences =
+    PROCESS @data
+    PRODUCE year string,
+            category string,
+            winner string,
+            entity string,
+            sentence string
+    USING new USQL_UDO.ActorDetails();
+
+@dataSentencesWithData =
+
+    SELECT year,
+           category,
+           winner,
+           entity,
+           sentence
+
+    FROM @dataSentences
+    WHERE sentence != "";
+
+OUTPUT @dataSentences
+     TO "Oscars/resultSentences.csv"
+     USING Outputters.Csv();
+
+
+OUTPUT @dataSentencesWithData
+     TO "Oscars/resultSentencesWithData.csv"
+     USING Outputters.Csv();
+
+
+
+OUTPUT @data 
+    TO @"Oscars/result.csv"
+    USING Outputters.Csv();

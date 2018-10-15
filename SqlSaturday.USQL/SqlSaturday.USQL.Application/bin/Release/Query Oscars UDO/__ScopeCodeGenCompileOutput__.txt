@@ -1,0 +1,191 @@
+*** Entering compilation, time elapsed until this point: 00:00:05.8063060
+*** Done with C# compilation, time elapsed until this point: 00:00:06.1617177
+#CPP cl.exe compile (iteration 1/1) -- Managed
+#CPP stdout:
+__ScopeCodeGenEngine__.dll.cpp
+ENC_CWD=C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Query Oscars UDO
+ENC_CL=c:\program files (x86)\microsoft visual studio\2017\enterprise\SDK\ScopeCppSDK\VC\bin\cl.exe
+ENC_SRC=__ScopeCodeGenEngine__.dll.cpp
+ENC_PDB=C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Query Oscars UDO\vc140.pdb
+ENC_CMD=-nologo -c -bigobj -Bt+ -DWIN32_LEAN_AND_MEAN -MD -W4 -WX -Zi -O2 -Bd -d2cgsummary -EHa -clr -DCOMPILE_MANAGED -wd4947 -wd4945 -wd4564 -FUSystem.dll -FUSystem.Data.dll -FUSystem.Core.dll -FUSystem.Runtime.Serialization.dll -FU"C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Query Oscars UDO\Microsoft.Analytics.Interfaces.dll" -FU"C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Query Oscars UDO\Microsoft.Analytics.Types.dll" -FU"C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Query Oscars UDO\ScopeEngineManaged.dll" -FU"C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Query Oscars UDO\Microsoft.Scope.Interfaces.dll" -FU"C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Query Oscars UDO\__codeBehind_v35j1q2m.gxs.dll" -FU"C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Query Oscars UDO\__ScopeCodeGen__.dll" -AI"c:\program files (x86)\microsoft visual studio\2017\enterprise\common7\ide\extensions\microsoft\adl tools\2.3.3000.2\U-SQLSDK" -AI"c:\program files (x86)\microsoft visual studio\2017\enterprise\SDK\ScopeCppSDK\CLR" -wd4125 -wd4627 -wd4800 -wd4702 -DUSE_SSE4_2 -I"c:\program files (x86)\microsoft visual studio\2017\enterprise\SDK\ScopeCppSDK\VC\include" -I"c:\program files (x86)\microsoft visual studio\2017\enterprise\SDK\ScopeCppSDK\SDK\include" -I"c:\program files (x86)\microsoft visual studio\2017\enterprise\SDK\ScopeCppSDK\SDK\include\um" -I"c:\program files (x86)\microsoft visual studio\2017\enterprise\SDK\ScopeCppSDK\SDK\include\shared" -I"c:\program files (x86)\microsoft visual studio\2017\enterprise\SDK\ScopeCppSDK\SDK\include\ucrt" -I"c:\program files (x86)\microsoft visual studio\2017\enterprise\common7\ide\extensions\microsoft\adl tools\2.3.3000.2\U-SQLSDK" -I"C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Query Oscars UDO" -DCOMPILE_ALL_VERTICES -DCOMPILE_INIT_SHUTDOWN -TP -X
+`c:\program files (x86)\microsoft visual studio\2017\enterprise\SDK\ScopeCppSDK\VC\bin\c1xx.dll -zm0x00007FF7F2915570 -il C:\Users\SHERNA~1\AppData\Local\Temp\_CL_ac7e5777 -typedil -f __ScopeCodeGenEngine__.dll.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -ZB64 -D_INTEGRAL_MAX_BITS=64 -pc \:/ -Fdvc140.pdb -D_MSC_VER=1900 -D_MSC_FULL_VER=190023506 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GS -GR -D_CPPRTTI -Zc:forScope -Zc:wchar_t -nologo -DWIN32_LEAN_AND_MEAN -D_MT -D_DLL -W 4 -WX -Zi -GF -Og -Oi -Ot -Oy -Bd -EHa -EHa -D_CPPUNWIND -Gil -D_MANAGED -D_M_CEE=001 -DCOMPILE_MANAGED -wd 4947 -wd 4945 -wd 4564 -FU System.dll -FU System.Data.dll -FU System.Core.dll -FU System.Runtime.Serialization.dll -FU C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Query Oscars UDO\Microsoft.Analytics.Interfaces.dll -FU C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Query Oscars UDO\Microsoft.Analytics.Types.dll -FU C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Query Oscars UDO\ScopeEngineManaged.dll -FU C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Query Oscars UDO\Microsoft.Scope.Interfaces.dll -FU C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Query Oscars UDO\__codeBehind_v35j1q2m.gxs.dll -FU C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Query Oscars UDO\__ScopeCodeGen__.dll -AI c:\program files (x86)\microsoft visual studio\2017\enterprise\common7\ide\extensions\microsoft\adl tools\2.3.3000.2\U-SQLSDK -AI c:\program files (x86)\microsoft visual studio\2017\enterprise\SDK\ScopeCppSDK\CLR -wd 4125 -wd 4627 -wd 4800 -wd 4702 -DUSE_SSE4_2 -I c:\program files (x86)\microsoft visual studio\2017\enterprise\SDK\ScopeCppSDK\VC\include -I c:\program files (x86)\microsoft visual studio\2017\enterprise\SDK\ScopeCppSDK\SDK\include -I c:\program files (x86)\microsoft visual studio\2017\enterprise\SDK\ScopeCppSDK\SDK\include\um -I c:\program files (x86)\microsoft visual studio\2017\enterprise\SDK\ScopeCppSDK\SDK\include\shared -I c:\program files (x86)\microsoft visual studio\2017\enterprise\SDK\ScopeCppSDK\SDK\include\ucrt -I c:\program files (x86)\microsoft visual studio\2017\enterprise\common7\ide\extensions\microsoft\adl tools\2.3.3000.2\U-SQLSDK -I C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Query Oscars UDO -DCOMPILE_ALL_VERTICES -DCOMPILE_INIT_SHUTDOWN -Fo__ScopeCodeGenEngine__.dllManaged.obj -clrver4.07.3190.0 -D__CLR_VER=40703190'
+time(c:\program files (x86)\microsoft visual studio\2017\enterprise\SDK\ScopeCppSDK\VC\bin\c1xx.dll)=2.43580s < 315209269209 - 315214293042 > BB [C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Query Oscars UDO\__ScopeCodeGenEngine__.dll.cpp]
+`c:\program files (x86)\microsoft visual studio\2017\enterprise\SDK\ScopeCppSDK\VC\bin\c2.dll -il C:\Users\SHERNA~1\AppData\Local\Temp\_CL_ac7e5777 -typedil -f __ScopeCodeGenEngine__.dll.cpp -dos -Fdvc140.pdb -GS -bigobj -MD -W 4 -WX -Zi -Og -Ob2 -Gy -Bd -cgsummary -EHa -EHa -Gil -Fo__ScopeCodeGenEngine__.dllManaged.obj'
+Code Generation Summary
+	Total Function Count: 1556
+	Elapsed Time: 0.977 sec
+	Total Compilation Time: 0.967 sec
+	Efficiency: 99.0%
+	Average time per function: 0.001 sec
+	Anomalistic Compile Times: 57
+		?WriteRuntimeStats@Statistics@IncrementalAllocator@ScopeEngine@@$$FQEBAXAEAVTreeNode@3@J@Z: 0.023 sec, 0 instrs
+		?ReadInternal@?$SqlIpRowStream@VNewLineDelimiter@ScopeEngine@@@ScopeEngine@@$$FIE$AAMHP$01EAEHH_N@Z: 0.021 sec, 0 instrs
+		?ReadInternal@?$SqlIpRowStream@VFixedLengthDelimiter@ScopeEngine@@@ScopeEngine@@$$FIE$AAMHP$01EAEHH_N@Z: 0.020 sec, 0 instrs
+		?Init@IncrementalAllocator@ScopeEngine@@$$FQEAAX_KPEBD@Z: 0.013 sec, 0 instrs
+		??0?$vector@UParameterValue@ScopeEngine@@V?$allocator@UParameterValue@ScopeEngine@@@std@@@std@@$$FQEAA@AEBV01@@Z: 0.011 sec, 0 instrs
+		?_Copy@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@$$FQEAAX_K0@Z: 0.010 sec, 0 instrs
+		?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQEAAX_K0@Z: 0.010 sec, 0 instrs
+		?str@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ: 0.010 sec, 0 instrs
+		??0IncrementalAllocator@ScopeEngine@@$$FQEAA@_KPEBD@Z: 0.010 sec, 0 instrs
+		??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@$$FYA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@PEBDAEBV10@@Z: 0.010 sec, 0 instrs
+		?Init@IncrementalAllocator@ScopeEngine@@$$FQEAAX_KAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z: 0.009 sec, 0 instrs
+		?Seek@?$ScopeCosmosInputStream@VCosmosInput@ScopeEngine@@@ScopeEngine@@$$FUE$AAM_J_JW4SeekOrigin@IO@System@@@Z: 0.009 sec, 0 instrs
+		?WriteRuntimeStats@?$SqlIpInputRowset@VSV1_Extract_out0@@@ScopeEngine@@$$FQE$AAMXAEAVTreeNode@2@@Z: 0.008 sec, 0 instrs
+		??0?$ManagedUDO@$03@ScopeEngine@@$$FQEAA@PEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z: 0.008 sec, 0 instrs
+		??$AllocateAligned@$07@IncrementalAllocator@ScopeEngine@@$$FQEAAPEAD_K@Z: 0.008 sec, 0 instrs
+		??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQEAA@PEBD@Z: 0.008 sec, 0 instrs
+		?<MarshalCopy>@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@$$FSMXPEAV12@0@Z: 0.007 sec, 0 instrs
+		??0?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@$$FQEAA@AEBV01@@Z: 0.007 sec, 0 instrs
+		??$_Integral_to_string@_K@std@@$$FYA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@PEBD_K@Z: 0.007 sec, 0 instrs
+		??0RowEntityAllocator@ScopeEngine@@$$FQEAA@_KPEBDW4ContentType@01@@Z: 0.007 sec, 0 instrs
+		?push_back@?$vector@PEBUBufferDescriptor@ScopeEngine@@V?$allocator@PEBUBufferDescriptor@ScopeEngine@@@std@@@std@@$$FQEAAX$$QEAPEBUBufferDescriptor@ScopeEngine@@@Z: 0.007 sec, 0 instrs
+		??4?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQEAAAEAV01@AEBV01@@Z: 0.007 sec, 0 instrs
+		??$_Integral_to_string@_J@std@@$$FYA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@PEBD_J@Z: 0.007 sec, 0 instrs
+		?CommitSlow@IncrementalAllocator@ScopeEngine@@$$FQEAAX_K@Z: 0.007 sec, 0 instrs
+		?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQEAAAEAV12@PEBD_K@Z: 0.006 sec, 0 instrs
+		?SkipCurRow@?$SqlIpRowStream@VNewLineDelimiter@ScopeEngine@@@ScopeEngine@@$$FQE$AAMXXZ: 0.006 sec, 0 instrs
+		?SkipCurRow@?$SqlIpRowStream@VFixedLengthDelimiter@ScopeEngine@@@ScopeEngine@@$$FQE$AAMXXZ: 0.006 sec, 0 instrs
+		?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQEAAAEAV12@PEBD_K@Z: 0.006 sec, 0 instrs
+		??$?6U?$char_traits@D@std@@@std@@$$FYAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z: 0.006 sec, 0 instrs
+		??1IncrementalAllocator@ScopeEngine@@$$FQEAA@XZ: 0.006 sec, 0 instrs
+		??$MakeSqlIp@VSV1_Extract_out0@@VProcess_2_Data0@@$03@ScopeProcessorManagedFactory@ScopeEngine@@$$FSAPEAV?$ScopeProcessorManaged@VSV1_Extract_out0@@VProcess_2_Data0@@@1@PEAV?$OperatorDelegate@VSV1_Extract_out0@@@1@@Z: 0.006 sec, 0 instrs
+		??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQEAA@PEBD_K@Z: 0.006 sec, 0 instrs
+		?Read@?$SqlIpRowStream@VNewLineDelimiter@ScopeEngine@@@ScopeEngine@@$$FQE$AAMHP$01EAEHH@Z: 0.006 sec, 0 instrs
+		?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQEAAAEAV12@AEBV12@_K1@Z: 0.006 sec, 0 instrs
+		??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQEAA@AEBV01@@Z: 0.006 sec, 0 instrs
+		?assign@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@$$FQEAAAEAV12@AEBV12@_K1@Z: 0.006 sec, 0 instrs
+		??0Statistics@IncrementalAllocator@ScopeEngine@@$$FQEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_KAEBUStatCounters@12@@Z: 0.006 sec, 0 instrs
+		?<MarshalCopy>@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FSMXPEAV12@0@Z: 0.006 sec, 0 instrs
+		?StreamName@CosmosInput@ScopeEngine@@$$FQEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ: 0.006 sec, 0 instrs
+		?GetStatistics@IncrementalAllocator@ScopeEngine@@$$FQEBA?AUStatistics@12@XZ: 0.005 sec, 0 instrs
+		?_Reallocate@?$vector@PEBUBufferDescriptor@ScopeEngine@@V?$allocator@PEBUBufferDescriptor@ScopeEngine@@@std@@@std@@$$FIEAAX_K@Z: 0.005 sec, 0 instrs
+		?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQEAAAEAV12@PEBD@Z: 0.005 sec, 0 instrs
+		?overflow@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FMEAAHH@Z: 0.005 sec, 0 instrs
+		?Read@?$SqlIpRowStream@VFixedLengthDelimiter@ScopeEngine@@@ScopeEngine@@$$FQE$AAMHP$01EAEHH@Z: 0.005 sec, 0 instrs
+		?Seek@CosmosInput@ScopeEngine@@$$FQEAA_K_K@Z: 0.005 sec, 0 instrs
+		??Y?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQEAAAEAV01@PEBD@Z: 0.005 sec, 0 instrs
+		?Marshal@?$InteropToNativeRowPolicy@VProcess_2_Data0@@$03@ScopeEngine@@$$FSMXPE$AAVSqlIpRow@ScopeEngineManaged@@AEAVProcess_2_Data0@@PEAVIncrementalAllocator@2@@Z: 0.005 sec, 0 instrs
+		??0?$SqlIpProcessor@VSV1_Extract_out0@@VProcess_2_Data0@@@ScopeEngine@@$$FAEAM@PE$AAVIProcessor@Interfaces@Analytics@Microsoft@@PE$AAV?$SqlIpInputRowset@VSV1_Extract_out0@@@1@PE$AAVSqlIpUpdatableRow@ScopeEngineManaged@@P6MXPE$AAVSqlIpRow@8@AEAVProcess_2_Data0@@PEAVIncrementalAllocator@1@@ZP6AX5@ZP6A_NAEAVSV1_Extract_out0@@45@ZP$01EAPE$AAVString@System@@P$01EAPE$AAVString@System@@@Z: 0.005 sec, 0 instrs
+		?Allocate@IncrementalAllocator@ScopeEngine@@$$FQEAAPEAD_K@Z: 0.005 sec, 0 instrs
+		?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQEAAAEAV12@PEBD@Z: 0.005 sec, 0 instrs
+		?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQEAAAEAV12@AEBV12@@Z: 0.004 sec, 0 instrs
+		?GetNextRow@?$SqlIpProcessor@VSV1_Extract_out0@@VProcess_2_Data0@@@ScopeEngine@@$$FUEAA_NAEAVProcess_2_Data0@@@Z: 0.004 sec, 0 instrs
+		?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQEAAAEAV12@AEBV12@_K1@Z: 0.004 sec, 0 instrs
+		?WriteRuntimeStats@?$SqlIpProcessor@VSV1_Extract_out0@@VProcess_2_Data0@@@ScopeEngine@@$$FUEAAXAEAVTreeNode@2@@Z: 0.004 sec, 0 instrs
+		??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQEAA@$$QEAV01@@Z: 0.004 sec, 0 instrs
+		?WriteRuntimeStats@IncrementalAllocator@ScopeEngine@@$$FUEBAXAEAVTreeNode@2@J@Z: 0.004 sec, 0 instrs
+		?_Grow@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQEAA_N_K_N@Z: 0.004 sec, 0 instrs
+time(c:\program files (x86)\microsoft visual studio\2017\enterprise\SDK\ScopeCppSDK\VC\bin\c2.dll)=1.27188s < 315214301376 - 315216924628 > BB [C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Query Oscars UDO\__ScopeCodeGenEngine__.dll.cpp]
+
+#CPP stderr:
+
+#CPP cl.exe pre-compile (iteration 0/0) -- Native
+#CPP stdout:
+__ScopeCodeGenEngine__.dll.cpp
+ENC_CWD=C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Query Oscars UDO
+ENC_CL=c:\program files (x86)\microsoft visual studio\2017\enterprise\SDK\ScopeCppSDK\VC\bin\cl.exe
+ENC_SRC=__ScopeCodeGenEngine__.dll.cpp
+ENC_PDB=C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Query Oscars UDO\__ScopeCodeGenEngine__.dllNative_pch.pdb
+ENC_CMD=-nologo -c -bigobj -Bt+ -DWIN32_LEAN_AND_MEAN -MD -W4 -WX -Zi -O2 -Bd -d2cgsummary -EHa -DCOMPILE_NATIVE -wd4125 -wd4627 -wd4800 -wd4702 -DUSE_SSE4_2 -I"c:\program files (x86)\microsoft visual studio\2017\enterprise\SDK\ScopeCppSDK\VC\include" -I"c:\program files (x86)\microsoft visual studio\2017\enterprise\SDK\ScopeCppSDK\SDK\include" -I"c:\program files (x86)\microsoft visual studio\2017\enterprise\SDK\ScopeCppSDK\SDK\include\um" -I"c:\program files (x86)\microsoft visual studio\2017\enterprise\SDK\ScopeCppSDK\SDK\include\shared" -I"c:\program files (x86)\microsoft visual studio\2017\enterprise\SDK\ScopeCppSDK\SDK\include\ucrt" -I"c:\program files (x86)\microsoft visual studio\2017\enterprise\common7\ide\extensions\microsoft\adl tools\2.3.3000.2\U-SQLSDK" -I"C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Query Oscars UDO" -Yc -Fp"C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Query Oscars UDO\__ScopeCodeGenEngine__.dllNative_pch.pch" -TP -X
+`c:\program files (x86)\microsoft visual studio\2017\enterprise\SDK\ScopeCppSDK\VC\bin\c1xx.dll -zm0x00007FF7F2915570 -il C:\Users\SHERNA~1\AppData\Local\Temp\_CL_fbe482ce -typedil -f __ScopeCodeGenEngine__.dll.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -ZB64 -D_INTEGRAL_MAX_BITS=64 -pc \:/ -D_MSC_VER=1900 -D_MSC_FULL_VER=190023506 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GS -GR -D_CPPRTTI -Zc:forScope -Zc:wchar_t -nologo -DWIN32_LEAN_AND_MEAN -D_MT -D_DLL -W 4 -WX -Zi -GF -Og -Oi -Ot -Oy -Bd -EHa -D_CPPUNWIND -DCOMPILE_NATIVE -wd 4125 -wd 4627 -wd 4800 -wd 4702 -DUSE_SSE4_2 -I c:\program files (x86)\microsoft visual studio\2017\enterprise\SDK\ScopeCppSDK\VC\include -I c:\program files (x86)\microsoft visual studio\2017\enterprise\SDK\ScopeCppSDK\SDK\include -I c:\program files (x86)\microsoft visual studio\2017\enterprise\SDK\ScopeCppSDK\SDK\include\um -I c:\program files (x86)\microsoft visual studio\2017\enterprise\SDK\ScopeCppSDK\SDK\include\shared -I c:\program files (x86)\microsoft visual studio\2017\enterprise\SDK\ScopeCppSDK\SDK\include\ucrt -I c:\program files (x86)\microsoft visual studio\2017\enterprise\common7\ide\extensions\microsoft\adl tools\2.3.3000.2\U-SQLSDK -I C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Query Oscars UDO -Yc -Fo__ScopeCodeGenEngine__.dllNative_pch.obj -Fp__ScopeCodeGenEngine__.dllNative_pch.pch -Fd__ScopeCodeGenEngine__.dllNative_pch.pdb'
+time(c:\program files (x86)\microsoft visual studio\2017\enterprise\SDK\ScopeCppSDK\VC\bin\c1xx.dll)=2.24200s < 315217118678 - 315221742799 > BB [C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Query Oscars UDO\__ScopeCodeGenEngine__.dll.cpp]
+`c:\program files (x86)\microsoft visual studio\2017\enterprise\SDK\ScopeCppSDK\VC\bin\c2.dll -il C:\Users\SHERNA~1\AppData\Local\Temp\_CL_fbe482ce -typedil -f __ScopeCodeGenEngine__.dll.cpp -dos -GS -bigobj -MD -W 4 -WX -Zi -Og -Ob2 -Gy -Bd -cgsummary -EHa -Yc -Fo__ScopeCodeGenEngine__.dllNative_pch.obj -Fd__ScopeCodeGenEngine__.dllNative_pch.pdb'
+Code Generation Summary
+	Total Function Count: 156
+	Elapsed Time: 0.126 sec
+	Total Compilation Time: 0.449 sec
+	Efficiency: 355.2%
+	Average time per function: 0.003 sec
+	Anomalistic Compile Times: 11
+		?_Copy@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QEAAX_K0@Z: 0.025 sec, 0 instrs
+		?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAX_K0@Z: 0.019 sec, 0 instrs
+		?append@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QEAAAEAV12@PEB_W_K@Z: 0.018 sec, 0 instrs
+		?append@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QEAAAEAV12@AEBV12@_K1@Z: 0.017 sec, 0 instrs
+		?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@PEBD_K@Z: 0.016 sec, 0 instrs
+		?assign@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QEAAAEAV12@AEBV12@_K1@Z: 0.014 sec, 0 instrs
+		?assign@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QEAAAEAV12@PEB_W_K@Z: 0.014 sec, 0 instrs
+		?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@AEBV12@_K1@Z: 0.014 sec, 0 instrs
+		?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@PEBD_K@Z: 0.013 sec, 0 instrs
+		?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@AEBV12@_K1@Z: 0.013 sec, 0 instrs
+		??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@$$QEAV01@@Z: 0.012 sec, 0 instrs
+time(c:\program files (x86)\microsoft visual studio\2017\enterprise\SDK\ScopeCppSDK\VC\bin\c2.dll)=0.24219s < 315221748471 - 315222247994 > BB [C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Query Oscars UDO\__ScopeCodeGenEngine__.dll.cpp]
+
+#CPP stderr:
+
+#CPP cl.exe compile (iteration 1/1) -- Native
+#CPP stdout:
+__ScopeCodeGenEngine__.dll.cpp
+ENC_CWD=C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Query Oscars UDO
+ENC_CL=c:\program files (x86)\microsoft visual studio\2017\enterprise\SDK\ScopeCppSDK\VC\bin\cl.exe
+ENC_SRC=__ScopeCodeGenEngine__.dll.cpp
+ENC_PDB=C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Query Oscars UDO\__ScopeCodeGenEngine__.dllNative_pch.pdb
+ENC_CMD=-nologo -c -bigobj -Bt+ -DWIN32_LEAN_AND_MEAN -MD -W4 -WX -Zi -O2 -Bd -d2cgsummary -EHa -DCOMPILE_NATIVE -wd4125 -wd4627 -wd4800 -wd4702 -DUSE_SSE4_2 -I"c:\program files (x86)\microsoft visual studio\2017\enterprise\SDK\ScopeCppSDK\VC\include" -I"c:\program files (x86)\microsoft visual studio\2017\enterprise\SDK\ScopeCppSDK\SDK\include" -I"c:\program files (x86)\microsoft visual studio\2017\enterprise\SDK\ScopeCppSDK\SDK\include\um" -I"c:\program files (x86)\microsoft visual studio\2017\enterprise\SDK\ScopeCppSDK\SDK\include\shared" -I"c:\program files (x86)\microsoft visual studio\2017\enterprise\SDK\ScopeCppSDK\SDK\include\ucrt" -I"c:\program files (x86)\microsoft visual studio\2017\enterprise\common7\ide\extensions\microsoft\adl tools\2.3.3000.2\U-SQLSDK" -I"C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Query Oscars UDO" -DCOMPILE_ALL_VERTICES -DCOMPILE_INIT_SHUTDOWN -Yu -Fp"C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Query Oscars UDO\__ScopeCodeGenEngine__.dllNative_pch.pch" -TP -X
+`c:\program files (x86)\microsoft visual studio\2017\enterprise\SDK\ScopeCppSDK\VC\bin\c1xx.dll -zm0x00007FF7F2915570 -allChunksReserved -il C:\Users\SHERNA~1\AppData\Local\Temp\_CL_d42e995a -typedil -f __ScopeCodeGenEngine__.dll.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -ZB64 -D_INTEGRAL_MAX_BITS=64 -pc \:/ -D_MSC_VER=1900 -D_MSC_FULL_VER=190023506 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GS -GR -D_CPPRTTI -Zc:forScope -Zc:wchar_t -nologo -DWIN32_LEAN_AND_MEAN -D_MT -D_DLL -W 4 -WX -Zi -GF -Og -Oi -Ot -Oy -Bd -EHa -D_CPPUNWIND -DCOMPILE_NATIVE -wd 4125 -wd 4627 -wd 4800 -wd 4702 -DUSE_SSE4_2 -I c:\program files (x86)\microsoft visual studio\2017\enterprise\SDK\ScopeCppSDK\VC\include -I c:\program files (x86)\microsoft visual studio\2017\enterprise\SDK\ScopeCppSDK\SDK\include -I c:\program files (x86)\microsoft visual studio\2017\enterprise\SDK\ScopeCppSDK\SDK\include\um -I c:\program files (x86)\microsoft visual studio\2017\enterprise\SDK\ScopeCppSDK\SDK\include\shared -I c:\program files (x86)\microsoft visual studio\2017\enterprise\SDK\ScopeCppSDK\SDK\include\ucrt -I c:\program files (x86)\microsoft visual studio\2017\enterprise\common7\ide\extensions\microsoft\adl tools\2.3.3000.2\U-SQLSDK -I C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Query Oscars UDO -DCOMPILE_ALL_VERTICES -DCOMPILE_INIT_SHUTDOWN -Fo__ScopeCodeGenEngine__.dllNative.obj -Yu -Fp__ScopeCodeGenEngine__.dllNative_pch.pch -Fd__ScopeCodeGenEngine__.dllNative_pch.pdb'
+time(c:\program files (x86)\microsoft visual studio\2017\enterprise\SDK\ScopeCppSDK\VC\bin\c1xx.dll)=0.45363s < 315222366383 - 315223301988 > BB [C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Query Oscars UDO\__ScopeCodeGenEngine__.dll.cpp]
+`c:\program files (x86)\microsoft visual studio\2017\enterprise\SDK\ScopeCppSDK\VC\bin\c2.dll -il C:\Users\SHERNA~1\AppData\Local\Temp\_CL_d42e995a -typedil -f __ScopeCodeGenEngine__.dll.cpp -dos -GS -bigobj -MD -W 4 -WX -Zi -Og -Ob2 -Gy -Bd -cgsummary -EHa -Fo__ScopeCodeGenEngine__.dllNative.obj -Fd__ScopeCodeGenEngine__.dllNative_pch.pdb'
+Code Generation Summary
+	Total Function Count: 1637
+	Elapsed Time: 1.431 sec
+	Total Compilation Time: 5.183 sec
+	Efficiency: 362.2%
+	Average time per function: 0.003 sec
+	Anomalistic Compile Times: 32
+		??$Write@VFString@ScopeEngine@@$00@?$TextOutputStream@U?$TextOutputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$0A@$00$03$00$0A@@ScopeEngine@@VCosmosOutput@2@@ScopeEngine@@QEAAXAEBVFString@1@@Z: 0.178 sec, 0 instrs
+		?WriteRuntimeStats@Statistics@IncrementalAllocator@ScopeEngine@@QEBAXAEAVTreeNode@3@J@Z: 0.175 sec, 0 instrs
+		??$WriteString@$00@?$TextOutputStream@U?$TextOutputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$0A@$00$03$00$0A@@ScopeEngine@@VCosmosOutput@2@@ScopeEngine@@QEAAXPEBD_K@Z: 0.173 sec, 0 instrs
+		?ReadString@?$TextInputStream@U?$TextInputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$03$00$00$0A@$0A@$0A@$0A@$0A@@ScopeEngine@@VCosmosInput@2@@ScopeEngine@@AEAA?AW4TokenizerState@12@PEAVAutoExpandBuffer@2@@Z: 0.107 sec, 0 instrs
+		?WriteRuntimeStatsImpl@?$ParallelUnionAll@V?$Extractor@VSV1_Extract_out0@@V?$TextExtractPolicy@VSV1_Extract_out0@@$00@ScopeEngine@@V?$TextInputStream@U?$TextInputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$03$00$00$0A@$0A@$0A@$0A@$0A@@ScopeEngine@@VCosmosInput@2@@3@@ScopeEngine@@VSV1_Extract_out0@@$00@ScopeEngine@@QEAAXAEAVTreeNode@2@@Z: 0.104 sec, 0 instrs
+		??$Read@VFString@ScopeEngine@@@?$TextInputStream@U?$TextInputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$03$00$00$0A@$0A@$0A@$0A@$0A@@ScopeEngine@@VCosmosInput@2@@ScopeEngine@@QEAAXAEAVFString@1@@Z: 0.104 sec, 0 instrs
+		?LoadingData@?$ParallelLoader@V?$Extractor@VSV1_Extract_out0@@V?$TextExtractPolicy@VSV1_Extract_out0@@$00@ScopeEngine@@V?$TextInputStream@U?$TextInputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$03$00$00$0A@$0A@$0A@$0A@$0A@@ScopeEngine@@VCosmosInput@2@@3@@ScopeEngine@@VSV1_Extract_out0@@@ScopeEngine@@AEAA_NXZ: 0.085 sec, 0 instrs
+		?str@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ: 0.075 sec, 0 instrs
+		?WriteRuntimeStatsImpl@?$Outputer@V?$ParallelUnionAll@V?$Extractor@VSV1_Extract_out0@@V?$TextExtractPolicy@VSV1_Extract_out0@@$00@ScopeEngine@@V?$TextInputStream@U?$TextInputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$03$00$00$0A@$0A@$0A@$0A@$0A@@ScopeEngine@@VCosmosInput@2@@3@@ScopeEngine@@VSV1_Extract_out0@@$00@ScopeEngine@@VSV1_Extract_out0@@V?$BinaryOutputPolicy@VSV1_Extract_out0@@@2@VBinaryOutputStream@2@$0A@@ScopeEngine@@QEAAXAEAVTreeNode@2@@Z: 0.064 sec, 0 instrs
+		?WriteRuntimeStatsImpl@?$Outputer@V?$Extractor@VSV1_Extract_out0@@V?$BinaryExtractPolicy@VSV1_Extract_out0@@@ScopeEngine@@VBinaryInputStream@3@@ScopeEngine@@VSV1_Extract_out0@@V?$TextOutputPolicy@VSV1_Extract_out0@@$02@2@V?$TextOutputStream@U?$TextOutputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$0A@$00$03$00$0A@@ScopeEngine@@VCosmosOutput@2@@2@$0A@@ScopeEngine@@QEAAXAEAVTreeNode@2@@Z: 0.061 sec, 0 instrs
+		?StartRow@?$TextInputStream@U?$TextInputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$03$00$00$0A@$0A@$0A@$0A@$0A@@ScopeEngine@@VCosmosInput@2@@ScopeEngine@@QEAA_NXZ: 0.060 sec, 0 instrs
+		SV1_Extract_execute: 0.051 sec, 0 instrs
+		?WriteRuntimeStatsImpl@?$Splitter@V?$ScopeProcessor@VSV1_Extract_out0@@VProcess_2_Data0@@@ScopeEngine@@VProcess_2_Data0@@$0A@$05@ScopeEngine@@QEAAXAEAVTreeNode@2@@Z: 0.051 sec, 0 instrs
+		?WriteRuntimeStats@CosmosOutput@ScopeEngine@@QEAAXAEAVTreeNode@2@@Z: 0.050 sec, 0 instrs
+		?AppendRuntimeStats@?$Extractor@VSV1_Extract_out0@@V?$TextExtractPolicy@VSV1_Extract_out0@@$00@ScopeEngine@@V?$TextInputStream@U?$TextInputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$03$00$00$0A@$0A@$0A@$0A@$0A@@ScopeEngine@@VCosmosInput@2@@3@@ScopeEngine@@QEAAXAEAVTreeNode@2@@Z: 0.050 sec, 0 instrs
+		?AppendRuntimeStats@?$Extractor@VSV1_Extract_out0@@V?$BinaryExtractPolicy@VSV1_Extract_out0@@@ScopeEngine@@VBinaryInputStream@3@@ScopeEngine@@QEAAXAEAVTreeNode@2@@Z: 0.048 sec, 0 instrs
+		??$ConvertToUtf8@V?$Utf8TextEncodingConverter@$0A@@ScopeEngine@@@?$TextEncodingReader@VCosmosInput@ScopeEngine@@$00$0A@@ScopeEngine@@AEAAXPEAV?$Utf8TextEncodingConverter@$0A@@1@AEA_KAEA_N@Z: 0.047 sec, 0 instrs
+		?WriteRuntimeStats@?$ParallelLoader@V?$Extractor@VSV1_Extract_out0@@V?$TextExtractPolicy@VSV1_Extract_out0@@$00@ScopeEngine@@V?$TextInputStream@U?$TextInputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$03$00$00$0A@$0A@$0A@$0A@$0A@@ScopeEngine@@VCosmosInput@2@@3@@ScopeEngine@@VSV1_Extract_out0@@@ScopeEngine@@QEAAXAEAVTreeNode@2@@Z: 0.046 sec, 0 instrs
+		?WriteRuntimeStats@CosmosInput@ScopeEngine@@QEAAXAEAVTreeNode@2@@Z: 0.045 sec, 0 instrs
+		?SkipLine@?$TextInputStream@U?$TextInputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$03$00$00$0A@$0A@$0A@$0A@$0A@@ScopeEngine@@VCosmosInput@2@@ScopeEngine@@QEAA_NXZ: 0.044 sec, 0 instrs
+		SV3_Split_execute: 0.043 sec, 0 instrs
+		?WriteRuntimeStatsImpl@?$ScopeProcessor@VSV1_Extract_out0@@VProcess_2_Data0@@@ScopeEngine@@QEAAXAEAVTreeNode@2@@Z: 0.043 sec, 0 instrs
+		?GetArgumentIntValue@ScopeEngine@@YAHPEBDPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H_N@Z: 0.039 sec, 0 instrs
+		?GetNextPage@?$TextEncodingReader@VCosmosInput@ScopeEngine@@$00$0A@@ScopeEngine@@QEAAPEADAEA_KAEA_N@Z: 0.035 sec, 0 instrs
+		??$CreateBadConvertException@VAutoExpandBuffer@ScopeEngine@@@?$TextInputStream@U?$TextInputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$03$00$00$0A@$0A@$0A@$0A@$0A@@ScopeEngine@@VCosmosInput@2@@ScopeEngine@@AEAA?AVTextConversionException@1@W4ConvertResult@1@AEBVAutoExpandBuffer@1@@Z: 0.035 sec, 0 instrs
+		?WriteNull@?$TextOutputStream@U?$TextOutputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$0A@$00$03$00$0A@@ScopeEngine@@VCosmosOutput@2@@ScopeEngine@@QEAAXXZ: 0.033 sec, 0 instrs
+		?Init@?$TextEncodingReader@VCosmosInput@ScopeEngine@@$00$0A@@ScopeEngine@@QEAAXPEAVCosmosInput@2@_K_N2@Z: 0.032 sec, 0 instrs
+		SV2_Process_execute: 0.029 sec, 0 instrs
+		?ConvertToUtf8@?$TextEncodingConverter@$02@ScopeEngine@@QEAAXPEBD0AEAPEBDPEAD2AEAPEAD@Z: 0.028 sec, 0 instrs
+		??$MakeupOneCompleteCharacter@V?$Utf8TextEncodingConverter@$0A@@ScopeEngine@@@?$TextEncodingReader@VCosmosInput@ScopeEngine@@$00$0A@@ScopeEngine@@AEAA_KPEAV?$Utf8TextEncodingConverter@$0A@@1@PEAD_K12@Z: 0.027 sec, 0 instrs
+		?Deserialize@?$TextExtractPolicy@VSV1_Extract_out0@@$00@ScopeEngine@@SA_NPEAV?$TextInputStream@U?$TextInputStreamTraitsConst@$0CM@$0A@$0A@$0A@$00$03$00$00$0A@$0A@$0A@$0A@$0A@@ScopeEngine@@VCosmosInput@2@@2@AEAVSV1_Extract_out0@@@Z: 0.026 sec, 0 instrs
+		??$ConvertToUtf8@V?$TextEncodingConverter@$00@ScopeEngine@@@?$TextEncodingReader@VCosmosInput@ScopeEngine@@$00$0A@@ScopeEngine@@AEAAXPEAV?$TextEncodingConverter@$00@1@AEA_KAEA_N@Z: 0.025 sec, 0 instrs
+	Serialized Initializer Count: 1
+	Serialized Initializer Time: 0.002 sec
+time(c:\program files (x86)\microsoft visual studio\2017\enterprise\SDK\ScopeCppSDK\VC\bin\c2.dll)=1.62922s < 315223306459 - 315226666724 > BB [C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Query Oscars UDO\__ScopeCodeGenEngine__.dll.cpp]
+
+#CPP stderr:
+
+*** Done with C++ compilation, time elapsed until this point: 00:00:15.1933274
+#LINK stdout:
+__ScopeCodeGenEngine__.dllNative_pch.obj : warning LNK4042: object specified more than once; extras ignored
+   Creating library __ScopeCodeGenEngine__.lib and object __ScopeCodeGenEngine__.exp
+Linker: LibDef Total time = 0.00408s PB: 41238528 [C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Query Oscars UDO\__ScopeCodeGenEngine__.dll] 
+Linker:   MD Merge Total time = 0.09957s PB: 43724800 [C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Query Oscars UDO\__ScopeCodeGenEngine__.dll] 
+Linker:   Generate Transitions Total time = 0.00749s PB: 43892736 [C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Query Oscars UDO\__ScopeCodeGenEngine__.dll] 
+Linker:   OptRef: Interval #1, time = 0.00473s [C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Query Oscars UDO\__ScopeCodeGenEngine__.dll] 
+Linker:   OptRef Total time = 0.09044s PB: 44474368 [C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Query Oscars UDO\__ScopeCodeGenEngine__.dll] 
+Linker:   OptIcf Total time = 0.01283s PB: 46661632 [C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Query Oscars UDO\__ScopeCodeGenEngine__.dll] 
+Linker:   MD Finalize Total time = 0.01557s PB: 46125056 [C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Query Oscars UDO\__ScopeCodeGenEngine__.dll] 
+Linker: Pass 1: Interval #1, time = 0.41065s [C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Query Oscars UDO\__ScopeCodeGenEngine__.dll] 
+Linker:   Wait PDB close Total time = 0.04050s PB: 14065664 [C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Query Oscars UDO\__ScopeCodeGenEngine__.dll] 
+Linker:   Wait type merge Total time = 0.01291s PB: 14008320 [C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Query Oscars UDO\__ScopeCodeGenEngine__.dll] 
+Linker: Pass 2: Interval #2, time = 0.11237s [C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Query Oscars UDO\__ScopeCodeGenEngine__.dll] 
+Linker: Final Total time = 0.52308s < 315226784932 - 315227863795 > PB: 14036992 [C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Query Oscars UDO\__ScopeCodeGenEngine__.dll] 
+
+#LINK stderr:
+
+*** Done with C++ linking, time elapsed until this point: 00:00:15.7731656
+*** Exiting compilation, time elapsed until this point: 00:00:15.7741736

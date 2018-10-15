@@ -1,0 +1,6 @@
+C:\Users\shernandez\source\repos\SqlSaturday.USQL\SqlSaturday.USQL.Application\obj\Debug\SqlSaturday.USQL.Application.usqlproj.CoreCompileInputs.cache
+C:\Users\shernandez\source\repos\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Debug\Algebra.xml
+C:\Users\shernandez\source\repos\SqlSaturday.USQL\SqlSaturday.USQL.Application\obj\Debug\Algebra.xml
+C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Debug\Algebra.xml
+C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\obj\Debug\SqlSaturday.USQL.Application.usqlproj.CoreCompileInputs.cache
+C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\obj\Debug\Algebra.xml

@@ -1,0 +1,6 @@
+﻿DECLARE @files List<VisionExtension.Result> = VisionExtension.ApiVisionFunction.ProcessImage("hello world");
+
+@r = SELECT * FROM (VALUES(@files)) AS T(x);
+OUTPUT @r
+TO "Oscars/files.csv"
+USING Outputters.Csv();
