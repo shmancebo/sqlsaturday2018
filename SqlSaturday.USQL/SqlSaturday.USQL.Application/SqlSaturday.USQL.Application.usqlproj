@@ -20,7 +20,6 @@
     <OutputPath>bin\Release\</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <Script Include="ConfigAzureMaps.usql" />
     <Script Include="Create database and table.usql" />
     <Script Include="CognitiveServices.usql" />
     <Script Include="Populate table.usql" />
@@ -28,9 +27,6 @@
     <Script Include="Query Oscars UDO.usql" />
     <ScriptCode Include="CognitiveServices.usql.cs">
       <DependentUpon>CognitiveServices.usql</DependentUpon>
-    </ScriptCode>
-    <ScriptCode Include="ConfigAzureMaps.usql.cs">
-      <DependentUpon>ConfigAzureMaps.usql</DependentUpon>
     </ScriptCode>
     <ScriptCode Include="Query Oscars1.usql.cs">
       <DependentUpon>Query Oscars UDO.usql</DependentUpon>
