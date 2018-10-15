@@ -1,0 +1,14 @@
+C:\Git\SQLSaturday\SqlSaturday.AzureMaps\SqlSaturday.AzureMaps.Api\bin\Debug\netcoreapp2.1\SqlSaturday.AzureMaps.Api.deps.json
+C:\Git\SQLSaturday\SqlSaturday.AzureMaps\SqlSaturday.AzureMaps.Api\bin\Debug\netcoreapp2.1\SqlSaturday.AzureMaps.Api.runtimeconfig.json
+C:\Git\SQLSaturday\SqlSaturday.AzureMaps\SqlSaturday.AzureMaps.Api\bin\Debug\netcoreapp2.1\SqlSaturday.AzureMaps.Api.runtimeconfig.dev.json
+C:\Git\SQLSaturday\SqlSaturday.AzureMaps\SqlSaturday.AzureMaps.Api\bin\Debug\netcoreapp2.1\SqlSaturday.AzureMaps.Api.dll
+C:\Git\SQLSaturday\SqlSaturday.AzureMaps\SqlSaturday.AzureMaps.Api\bin\Debug\netcoreapp2.1\SqlSaturday.AzureMaps.Api.pdb
+C:\Git\SQLSaturday\SqlSaturday.AzureMaps\SqlSaturday.AzureMaps.Api\obj\Debug\netcoreapp2.1\SqlSaturday.AzureMaps.Api.csprojAssemblyReference.cache
+C:\Git\SQLSaturday\SqlSaturday.AzureMaps\SqlSaturday.AzureMaps.Api\obj\Debug\netcoreapp2.1\SqlSaturday.AzureMaps.Api.csproj.CoreCompileInputs.cache
+C:\Git\SQLSaturday\SqlSaturday.AzureMaps\SqlSaturday.AzureMaps.Api\obj\Debug\netcoreapp2.1\SqlSaturday.AzureMaps.Api.RazorAssemblyInfo.cache
+C:\Git\SQLSaturday\SqlSaturday.AzureMaps\SqlSaturday.AzureMaps.Api\obj\Debug\netcoreapp2.1\SqlSaturday.AzureMaps.Api.RazorAssemblyInfo.cs
+C:\Git\SQLSaturday\SqlSaturday.AzureMaps\SqlSaturday.AzureMaps.Api\obj\Debug\netcoreapp2.1\SqlSaturday.AzureMaps.Api.AssemblyInfoInputs.cache
+C:\Git\SQLSaturday\SqlSaturday.AzureMaps\SqlSaturday.AzureMaps.Api\obj\Debug\netcoreapp2.1\SqlSaturday.AzureMaps.Api.AssemblyInfo.cs
+C:\Git\SQLSaturday\SqlSaturday.AzureMaps\SqlSaturday.AzureMaps.Api\obj\Debug\netcoreapp2.1\SqlSaturday.AzureMaps.Api.RazorTargetAssemblyInfo.cache
+C:\Git\SQLSaturday\SqlSaturday.AzureMaps\SqlSaturday.AzureMaps.Api\obj\Debug\netcoreapp2.1\SqlSaturday.AzureMaps.Api.dll
+C:\Git\SQLSaturday\SqlSaturday.AzureMaps\SqlSaturday.AzureMaps.Api\obj\Debug\netcoreapp2.1\SqlSaturday.AzureMaps.Api.pdb
