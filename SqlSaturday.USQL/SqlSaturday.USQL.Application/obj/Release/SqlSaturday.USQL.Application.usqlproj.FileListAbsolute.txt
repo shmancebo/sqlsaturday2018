@@ -1,3 +1,7 @@
-C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Algebra.xml
+C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\obj\Release\SqlSaturday.USQL.Application.usqlprojAssemblyReference.cache
 C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\obj\Release\SqlSaturday.USQL.Application.usqlproj.CoreCompileInputs.cache
+C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Algebra.xml
+C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\SqlSaturday.USQL.Services.dll
+C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\SqlSaturday.USQL.Services.pdb
+C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\obj\Release\SqlSaturday.USQL.Application.usqlproj.CopyComplete
 C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\obj\Release\Algebra.xml

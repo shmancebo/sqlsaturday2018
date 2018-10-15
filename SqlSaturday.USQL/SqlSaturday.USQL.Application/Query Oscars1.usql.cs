@@ -1,5 +1,6 @@
 using Microsoft.Analytics.Interfaces;
 using Microsoft.Analytics.Types.Sql;
+using SqlSaturday.USQL.Services;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -10,6 +11,7 @@ namespace USQL_UDO
 {
     public class ActorDetails : IProcessor
     {
+
         private static IDictionary<string, string> Sentence = new Dictionary<string, string>
          {
              {

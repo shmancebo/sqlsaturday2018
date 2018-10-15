@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vertexCommand command="Start" jobType="None" managedMemorySize="0" vertexArg="ScopeEngine.dll -scopeVertex SV1_Extract -vertexNumber 0">
-  <inputs>
-    <input name="" path="C:\Users\shernandez\AppData\Local\USQLDataRoot\Oscars\dataOscars.csv" blockAligned="True" globalStartOffset="0" localStartOffset="0" localEndOffset="745019" length="745019" />
-  </inputs>
-  <outputs>
-    <output path="C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Query Oscars filtered\_TMP\scopetmpfile._SV1_Extract_out0" isFirstOutputPiece="True" />
-  </outputs>
-</vertexCommand>

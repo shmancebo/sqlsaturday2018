@@ -1,0 +1,9 @@
+C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Services\bin\Release\SqlSaturday.USQL.Services.dll
+C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Services\bin\Release\SqlSaturday.USQL.Services.pdb
+C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Services\bin\Release\Microsoft.Analytics.Interfaces.dll
+C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Services\bin\Release\Microsoft.Analytics.Interfaces.Streaming.dll
+C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Services\bin\Release\Microsoft.Analytics.Types.dll
+C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Services\obj\Release\SqlSaturday.USQL.Services.csproj.CoreCompileInputs.cache
+C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Services\obj\Release\SqlSaturday.USQL.Services.csproj.CopyComplete
+C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Services\obj\Release\SqlSaturday.USQL.Services.dll
+C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Services\obj\Release\SqlSaturday.USQL.Services.pdb

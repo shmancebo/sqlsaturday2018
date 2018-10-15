@@ -1,0 +1,115 @@
+﻿{
+"CompilerPlanStart":"15\/10\/2018 16:13:10"
+},
+{
+"Settings":"-c++ -mp -pdb Partial -OUTPUT_PATH C:\\Users\\shernandez\\AppData\\Local\\USQLDataRoot -cosmosCluster localhost -apEnvironment Default -apCluster localhost -Off EnableScopeVertexResourceMode -On ForceShadowCopy -On ADL -Off Sirius -On USQL -Off SQLIPSQLProxy -Off SQLIPSQLProxyNative -Off PolarisScaleUp -buckets 1 -SplitPartitionThreshold 52428800 -ClientVersion 10.2.2.0"
+},
+{
+"statementText":"\/\/ Auto-generated header codeCREATE ASSEMBLY [__codeBehind_4ou51yfk.xcb] FROM 0x4D5A900003000000"
+,
+{
+"NodeName":"CreateAssemblyStatement"
+},
+{
+"Name":"__codeBehind_4ou51yfk.xcb"
+}}
+,
+{
+"statementText":"REFERENCE ASSEMBLY [__codeBehind_4ou51yfk.xcb]"
+,
+{
+"NodeName":"ReferenceAssemblyStatement"
+},
+{
+"Name":"__codeBehind_4ou51yfk.xcb"
+}}
+,
+{
+"statementText":"DEPLOY RESOURCE @\"C:\\Git\\SQLSaturday\\SqlSaturday.USQL\\SqlSaturday.USQL.Services\\bin\\Release\\Sq"
+,
+{
+"NodeName":"ResourceStatement"
+}}
+,
+{
+"statementText":"\nDEPLOY RESOURCE @\"C:\\Git\\SQLSaturday\\SqlSaturday.USQL\\SqlSaturday.USQL.Services\\bin\\Release\\SqlSatu"
+,
+{
+"NodeName":"ResourceStatement"
+}}
+,
+{
+"statementText":" \n    EXTRACT year          string, \n            category      string, \n            winner        st"
+,
+{
+"NodeName":"QueryStatement"
+}}
+,
+{
+"statementText":"    PROCESS @data    PRODUCE year string,            category string,            winner stri"
+,
+{
+"NodeName":"QueryStatement"
+}}
+,
+{
+"statementText":"    SELECT year,           category,           winner,           entity,           sente"
+,
+{
+"NodeName":"QueryStatement"
+}}
+,
+{
+"statementText":"OUTPUT @dataSentences     TO \"Oscars\/resultSentences.csv\"     USING Outputters.Csv()"
+,
+{
+"NodeName":"OutputStatement"
+}}
+,
+{
+"statementText":"\n\n\nOUTPUT @dataSentencesWithData     TO \"Oscars\/resultSentencesWithData.csv\"     USING Outputter"
+,
+{
+"NodeName":"OutputStatement"
+}}
+,
+{
+"statementText":"\n\n\n\nOUTPUT @data \n    TO @\"Oscars\/result.csv\"\n    USING Outputters.Csv()"
+,
+{
+"NodeName":"OutputStatement"
+}}
+,
+{
+"statementText":"\/\/ User script ended\/\/ Auto-generated footer codeUSE DATABASE [master]"
+,
+{
+"NodeName":"UseDatabaseStatement"
+},
+{
+"Name":"master"
+}}
+,
+{
+"statementText":"USE SCHEMA [dbo]"
+,
+{
+"NodeName":"UseSchemaStatement"
+},
+{
+"Name":"dbo"
+}}
+,
+{
+"statementText":"DROP ASSEMBLY [__codeBehind_4ou51yfk.xcb]"
+,
+{
+"NodeName":"DropAssemblyStatement"
+},
+{
+"Name":"__codeBehind_4ou51yfk.xcb"
+}}
+,
+{
+"CompilerPlanEnd":"15\/10\/2018 16:13:10"
+}

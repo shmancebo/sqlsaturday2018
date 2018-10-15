@@ -6,11 +6,11 @@ REFERENCE ASSEMBLY ImageOcr;
 
 // Get the image data
 
-@imgs =
+@imgsTags =
     EXTRACT 
         FileName string, 
         ImgData byte[]
-    FROM @"/csImages/Tags/{FileName}.jpg"
+    FROM @"/csImages/Vision%20Api/{FileName}.jpg"
     USING new Cognition.Vision.ImageExtractor();
 
 //  Extract the number of objects on each image and tag them 
@@ -30,6 +30,6 @@ REFERENCE ASSEMBLY ImageOcr;
     FROM @tags;
 
 OUTPUT @tags_serialized
-    TO @"/csImages/tagger.csv"
+    TO @"/csImages/Analyze/tagger.csv"
     USING Outputters.Csv();
 

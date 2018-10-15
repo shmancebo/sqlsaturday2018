@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vertexCommand command="Start" jobType="None" managedMemorySize="0" vertexArg="ScopeEngine.dll -scopeVertex SV2_Process -vertexNumber 0">
+  <inputs>
+    <input name="SV1_Extract_out0" path="C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Query Oscars UDO\_TMP\scopetmpfile._SV1_Extract_out0" blockAligned="True" globalStartOffset="0" localStartOffset="0" localEndOffset="744095" length="744095" />
+  </inputs>
+  <outputs>
+    <output path="C:\Git\SQLSaturday\SqlSaturday.USQL\SqlSaturday.USQL.Application\bin\Release\Query Oscars UDO\_TMP\scopetmpfile._SV2_Process_out0" isFirstOutputPiece="True" />
+  </outputs>
+</vertexCommand>
