@@ -1503,6 +1503,22 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.WebUtilities.dll": {}
         }
       },
+      "Microsoft.Azure.Management.Maps/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Rest.ClientRuntime": "[2.3.11, 3.0.0)",
+          "Microsoft.Rest.ClientRuntime.Azure": "[3.3.12, 4.0.0)",
+          "NETStandard.Library": "1.6.1",
+          "Newtonsoft.Json": "9.0.1",
+          "System.Net.Http": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard1.4/Microsoft.Azure.Management.Maps.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.4/Microsoft.Azure.Management.Maps.dll": {}
+        }
+      },
       "Microsoft.CodeAnalysis.Analyzers/1.1.0": {
         "type": "package"
       },
@@ -2576,6 +2592,33 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Microsoft.Rest.ClientRuntime/2.3.11": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "compile": {
+          "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.dll": {}
+        }
+      },
+      "Microsoft.Rest.ClientRuntime.Azure/3.3.12": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Rest.ClientRuntime": "[2.3.10, 3.0.0)",
+          "NETStandard.Library": "1.6.1",
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "compile": {
+          "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.dll": {}
         }
       },
       "Microsoft.Win32.Registry/4.5.0": {
@@ -5506,6 +5549,22 @@
         "microsoft.aspnetcore.webutilities.nuspec"
       ]
     },
+    "Microsoft.Azure.Management.Maps/1.0.0": {
+      "sha512": "SYfuL2PrbDRAT9UEud9n/eYsX5Qww1Jn8F0M2+F6NBwQctHdsG5uSY5kOFH3X8zWUXFht0aleqO3b/SG/CsrtQ==",
+      "type": "package",
+      "path": "microsoft.azure.management.maps/1.0.0",
+      "files": [
+        ".signature.p7s",
+        "lib/net452/Microsoft.Azure.Management.Maps.dll",
+        "lib/net452/Microsoft.Azure.Management.Maps.runtimeconfig.json",
+        "lib/net452/Microsoft.Azure.Management.Maps.xml",
+        "lib/netstandard1.4/Microsoft.Azure.Management.Maps.dll",
+        "lib/netstandard1.4/Microsoft.Azure.Management.Maps.runtimeconfig.json",
+        "lib/netstandard1.4/Microsoft.Azure.Management.Maps.xml",
+        "microsoft.azure.management.maps.1.0.0.nupkg.sha512",
+        "microsoft.azure.management.maps.nuspec"
+      ]
+    },
     "Microsoft.CodeAnalysis.Analyzers/1.1.0": {
       "sha512": "HS3iRWZKcUw/8eZ/08GXKY2Bn7xNzQPzf8gRPHGSowX7u7XXu9i9YEaBeBNKUXWfI7qjvT2zXtLUvbN0hds8vg==",
       "type": "package",
@@ -6726,6 +6785,36 @@
         "runtime.json",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "Microsoft.Rest.ClientRuntime/2.3.11": {
+      "sha512": "0WOjf6O3H7XPrjBxK5H1kHqyO+PLvzwJ5Zc1pXkimQ1FrroLuhRYtG5XW70qbq0AFFoS/3vsua0h19GLLXomTg==",
+      "type": "package",
+      "path": "microsoft.rest.clientruntime/2.3.11",
+      "files": [
+        "lib/net452/Microsoft.Rest.ClientRuntime.dll",
+        "lib/net452/Microsoft.Rest.ClientRuntime.runtimeconfig.json",
+        "lib/net452/Microsoft.Rest.ClientRuntime.xml",
+        "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.dll",
+        "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.runtimeconfig.json",
+        "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.xml",
+        "microsoft.rest.clientruntime.2.3.11.nupkg.sha512",
+        "microsoft.rest.clientruntime.nuspec"
+      ]
+    },
+    "Microsoft.Rest.ClientRuntime.Azure/3.3.12": {
+      "sha512": "dJP3X+kO1pspVnZwaXQOclfxx/7Js1TakyooMESwBK8DgdfDBbdr3BMT3fKN3s6iH2ffz/DaCs8Pqn3fnS9ZqQ==",
+      "type": "package",
+      "path": "microsoft.rest.clientruntime.azure/3.3.12",
+      "files": [
+        "lib/net452/Microsoft.Rest.ClientRuntime.Azure.dll",
+        "lib/net452/Microsoft.Rest.ClientRuntime.Azure.runtimeconfig.json",
+        "lib/net452/Microsoft.Rest.ClientRuntime.Azure.xml",
+        "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.dll",
+        "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.runtimeconfig.json",
+        "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.xml",
+        "microsoft.rest.clientruntime.azure.3.3.12.nupkg.sha512",
+        "microsoft.rest.clientruntime.azure.nuspec"
       ]
     },
     "Microsoft.Win32.Registry/4.5.0": {
@@ -11496,6 +11585,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.AspNetCore.App >= 2.1.1",
+      "Microsoft.Azure.Management.Maps >= 1.0.0",
       "Microsoft.NETCore.App >= 2.1.0"
     ]
   },
@@ -11545,6 +11635,10 @@
             "target": "Package",
             "version": "[2.1.1, )",
             "autoReferenced": true
+          },
+          "Microsoft.Azure.Management.Maps": {
+            "target": "Package",
+            "version": "[1.0.0, )"
           },
           "Microsoft.NETCore.App": {
             "target": "Package",

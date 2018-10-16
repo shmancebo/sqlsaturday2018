@@ -7,7 +7,7 @@ namespace SqlSaturday.AzureMaps.Api.Services
 {
     public class Detail
     {
-        public List<object> landmarks { get; set; }
+        public List<Landmark> landmarks { get; set; }
     }
 
     public class Category
@@ -29,5 +29,11 @@ namespace SqlSaturday.AzureMaps.Api.Services
         public List<Category> categories { get; set; }
         public string requestId { get; set; }
         public Metadata metadata { get; set; }
+    }
+
+    public class Landmark
+    {
+        public string name { get; set; }
+        public string confidence { get; set; }
     }
 }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
@@ -9,6 +10,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using SqlSaturday.AzureMaps.Api.Services;
+using Microsoft.Azure.Management.Maps;
 
 namespace SqlSaturday.AzureMaps.Api.Controllers
 {
@@ -18,13 +20,25 @@ namespace SqlSaturday.AzureMaps.Api.Controllers
     {
        
         [HttpPost("Upload")]
-        public Result UploadFile([FromBody] ObjectModel data)
+        public Coordinates UploadFile([FromBody] ObjectModel data)
         {
-            var Landmark = GetLandmark(data.file);
-            return new Result() { Longitud = "10", Latitude = "15" };
+            //var Landmark = GetLandmark(data.file);
+            return new Coordinates() { Longitud = "10", Latitude = "15" };
         }
 
-        public string GetLandmark(string file)
+        [HttpPost("UploadBinary")]
+        public Result UploadFile()
+        {
+            var file = Request.Body;
+            MemoryStream stream = new MemoryStream();
+            file.CopyTo(stream);
+            byte[] bytes = stream.ToArray();
+            var landmark = GetLandmark(bytes);
+            stream.Dispose();
+            return GetCoordinates(landmark);
+        }
+
+        public string GetLandmark(byte[] bytes)
         {
             var url = "https://westus.api.cognitive.microsoft.com/vision/v2.0/analyze?details=Landmarks";
             string visionApiKey = "d8b993a32a4d46b5b4ddf17ea6144aa8";
@@ -38,7 +52,6 @@ namespace SqlSaturday.AzureMaps.Api.Controllers
             HttpResponseMessage response;
 
             string contentString = string.Empty;
-            var bytes = Shared.GetImageAsByteArray(file);
             using (ByteArrayContent content = new ByteArrayContent(bytes))
             {
                 // This example uses content type "application/octet-stream".
@@ -51,21 +64,49 @@ namespace SqlSaturday.AzureMaps.Api.Controllers
                 // Get the JSON response.
                 contentString = response.Content.ReadAsStringAsync().Result;
 
-                var info = JsonConvert.DeserializeObject<RootObject>(contentString);
-                return info.categories.FirstOrDefault().detail.landmarks.FirstOrDefault().ToString();
+                if (response.StatusCode == HttpStatusCode.OK)
+                {
+                    var info = JsonConvert.DeserializeObject<RootObject>(contentString);
 
+                    var current = info.categories.Where(x=>x.detail !=null && x.detail.landmarks != null).FirstOrDefault()?.detail.landmarks.FirstOrDefault().name;
+                    return current;
+                }
+
+                return null;
             }
 
             
         }
+
+        public Result GetCoordinates(string search)
+        {
+            var suscriptionKey = "wFEIEg9VEJsEeLHV-ieTFVJ2_nbiermiUCvx7gR-jws";
+            HttpClient client = new HttpClient();
+            var url = $"https://atlas.microsoft.com/search/fuzzy/json?api-version=1.0&subscription-key={suscriptionKey}&query={search}";
+            var response =  client.GetAsync(url).Result;
+            var contentString  = response.Content.ReadAsStringAsync().Result;
+
+            if (response.StatusCode == HttpStatusCode.OK)
+            {
+                var info = JsonConvert.DeserializeObject<FuzzySearchResult>(contentString);
+                return info.results.FirstOrDefault();
+            }
+
+            return null;
+
+
+        }
     }
+
+
+
 
     public class ObjectModel
     {
         public string file { get; set; }
     }
 
-    public class Result
+    public class Coordinates
     {
         public string Longitud { get; set; }
         public string Latitude { get; set; }

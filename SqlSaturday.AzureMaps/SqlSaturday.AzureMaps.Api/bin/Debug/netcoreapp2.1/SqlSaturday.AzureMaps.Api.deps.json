@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "8d19439ef22c432fe18f0eac697c8789fe30c00a"
+    "signature": "a5648f7f01a4304f99eaa02da7069ec625f4a90d"
   },
   "compilationOptions": {
     "defines": [
@@ -25,6 +25,7 @@
       "SqlSaturday.AzureMaps.Api/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.App": "2.1.1",
+          "Microsoft.Azure.Management.Maps": "1.0.0",
           "Microsoft.NETCore.App": "2.1.0"
         },
         "runtime": {
@@ -32,6 +33,24 @@
         },
         "compile": {
           "SqlSaturday.AzureMaps.Api.dll": {}
+        }
+      },
+      "Microsoft.Azure.Management.Maps/1.0.0": {
+        "dependencies": {
+          "Microsoft.Rest.ClientRuntime": "2.3.11",
+          "Microsoft.Rest.ClientRuntime.Azure": "3.3.12",
+          "NETStandard.Library": "2.0.3",
+          "Newtonsoft.Json": "11.0.2",
+          "System.Net.Http": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.4/Microsoft.Azure.Management.Maps.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard1.4/Microsoft.Azure.Management.Maps.dll": {}
         }
       },
       "Microsoft.NETCore.App/2.1.0": {
@@ -200,6 +219,37 @@
       },
       "Microsoft.NETCore.Platforms/2.1.0": {},
       "Microsoft.NETCore.Targets/2.1.0": {},
+      "Microsoft.Rest.ClientRuntime/2.3.11": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.3.11.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.dll": {}
+        }
+      },
+      "Microsoft.Rest.ClientRuntime.Azure/3.3.12": {
+        "dependencies": {
+          "Microsoft.Rest.ClientRuntime": "2.3.11",
+          "NETStandard.Library": "2.0.3",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.3.12.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.dll": {}
+        }
+      },
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.1.0"
@@ -3156,6 +3206,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Microsoft.Azure.Management.Maps/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SYfuL2PrbDRAT9UEud9n/eYsX5Qww1Jn8F0M2+F6NBwQctHdsG5uSY5kOFH3X8zWUXFht0aleqO3b/SG/CsrtQ==",
+      "path": "microsoft.azure.management.maps/1.0.0",
+      "hashPath": "microsoft.azure.management.maps.1.0.0.nupkg.sha512"
+    },
     "Microsoft.NETCore.App/2.1.0": {
       "type": "package",
       "serviceable": true,
@@ -3197,6 +3254,20 @@
       "sha512": "sha512-etaYwrLZQUS+b3UWTpCnUggd6SQ/ZIkZ5pHnoR7+dIWt/wp2Rv3CvMKOZISsrt7FYCHKwCxfcepuuyEWkQxADg==",
       "path": "microsoft.netcore.targets/2.1.0",
       "hashPath": "microsoft.netcore.targets.2.1.0.nupkg.sha512"
+    },
+    "Microsoft.Rest.ClientRuntime/2.3.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0WOjf6O3H7XPrjBxK5H1kHqyO+PLvzwJ5Zc1pXkimQ1FrroLuhRYtG5XW70qbq0AFFoS/3vsua0h19GLLXomTg==",
+      "path": "microsoft.rest.clientruntime/2.3.11",
+      "hashPath": "microsoft.rest.clientruntime.2.3.11.nupkg.sha512"
+    },
+    "Microsoft.Rest.ClientRuntime.Azure/3.3.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dJP3X+kO1pspVnZwaXQOclfxx/7Js1TakyooMESwBK8DgdfDBbdr3BMT3fKN3s6iH2ffz/DaCs8Pqn3fnS9ZqQ==",
+      "path": "microsoft.rest.clientruntime.azure/3.3.12",
+      "hashPath": "microsoft.rest.clientruntime.azure.3.3.12.nupkg.sha512"
     },
     "NETStandard.Library/2.0.3": {
       "type": "package",
