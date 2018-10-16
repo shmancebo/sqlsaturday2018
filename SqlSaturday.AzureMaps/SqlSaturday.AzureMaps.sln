@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlSaturday.AzureMaps.Api", "SqlSaturday.AzureMaps.Api\SqlSaturday.AzureMaps.Api.csproj", "{3DEDBDCB-A550-468F-80D0-7075E607DED5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqlSaturday.AzureMaps.Api", "SqlSaturday.AzureMaps.Api\SqlSaturday.AzureMaps.Api.csproj", "{3DEDBDCB-A550-468F-80D0-7075E607DED5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlSaturday.AzureMaps.Web", "SqlSaturday.AzureMaps.Web\SqlSaturday.AzureMaps.Web.csproj", "{FB37BAE7-E3DD-4E44-BAB7-9DE0096070D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{3DEDBDCB-A550-468F-80D0-7075E607DED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DEDBDCB-A550-468F-80D0-7075E607DED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DEDBDCB-A550-468F-80D0-7075E607DED5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB37BAE7-E3DD-4E44-BAB7-9DE0096070D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB37BAE7-E3DD-4E44-BAB7-9DE0096070D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB37BAE7-E3DD-4E44-BAB7-9DE0096070D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB37BAE7-E3DD-4E44-BAB7-9DE0096070D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
