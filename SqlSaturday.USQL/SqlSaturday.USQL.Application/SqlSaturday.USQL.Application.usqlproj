@@ -20,13 +20,17 @@
     <OutputPath>bin\Release\</OutputPath>
   </PropertyGroup>
   <ItemGroup>
+    <Script Include="CognitiveServiceEmotion.usql" />
     <Script Include="Create database and table.usql" />
-    <Script Include="CognitiveServices.usql" />
+    <Script Include="CognitiveServicesVision.usql" />
     <Script Include="Populate table.usql" />
     <Script Include="Query Oscars filtered.usql" />
     <Script Include="Query Oscars UDO.usql" />
-    <ScriptCode Include="CognitiveServices.usql.cs">
-      <DependentUpon>CognitiveServices.usql</DependentUpon>
+    <ScriptCode Include="CognitiveServiceEmotion.usql.cs">
+      <DependentUpon>CognitiveServiceEmotion.usql</DependentUpon>
+    </ScriptCode>
+    <ScriptCode Include="CognitiveServicesVision.usql.cs">
+      <DependentUpon>CognitiveServicesVision.usql</DependentUpon>
     </ScriptCode>
     <ScriptCode Include="Query Oscars1.usql.cs">
       <DependentUpon>Query Oscars UDO.usql</DependentUpon>

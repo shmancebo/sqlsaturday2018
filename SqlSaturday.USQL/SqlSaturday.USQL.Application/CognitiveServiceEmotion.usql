@@ -1,0 +1,24 @@
+﻿REFERENCE ASSEMBLY ImageCommon;
+REFERENCE ASSEMBLY FaceSdk;
+REFERENCE ASSEMBLY ImageEmotion;
+REFERENCE ASSEMBLY ImageTagging;
+REFERENCE ASSEMBLY ImageOcr;
+
+@emotions_from_extractor =
+    EXTRACT FileName string, 
+        NumFaces int, 
+        FaceIndex int, 
+        RectX float, 
+        RectY float, 
+        Width float, 
+        Height float, 
+        Emotion string, 
+        Confidence float
+    FROM @"/csImages/Vision%20Api/Emotion/{FileName}.jpg"
+    USING new Cognition.Vision.EmotionExtractor();
+
+
+
+OUTPUT @emotions_from_extractor
+    TO @"/csImages/Vision%20Api/Emotion/Emotion.csv"
+    USING Outputters.Csv();

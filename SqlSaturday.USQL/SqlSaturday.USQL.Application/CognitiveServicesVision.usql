@@ -10,18 +10,19 @@ REFERENCE ASSEMBLY ImageOcr;
     EXTRACT 
         FileName string, 
         ImgData byte[]
-    FROM @"/csImages/Vision%20Api/{FileName}.jpg"
+    FROM @"/csImages/Vision%20Api/Vision/{FileName}.jpg"
     USING new Cognition.Vision.ImageExtractor();
 
 //  Extract the number of objects on each image and tag them 
 
 @tags =
-    PROCESS @imgs 
+    PROCESS @imgsTags 
     PRODUCE FileName,
             NumObjects int,
             Tags SQL.MAP<string, float?>
     READONLY FileName
     USING new Cognition.Vision.ImageTagger();
+
 
 @tags_serialized =
     SELECT FileName,
@@ -29,7 +30,8 @@ REFERENCE ASSEMBLY ImageOcr;
            String.Join(";", Tags.Select(x => String.Format("{0}:{1}", x.Key, x.Value))) AS TagsString
     FROM @tags;
 
+
 OUTPUT @tags_serialized
-    TO @"/csImages/Analyze/tagger.csv"
+    TO @"/csImages/Vision%20Api/Vision/Vision.csv"
     USING Outputters.Csv();
 
